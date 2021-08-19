@@ -12,11 +12,11 @@ body {
 
 img {
   border-radius: 50%;
-  width: 15%;
+  /* width: 15%; */
 }
 
 .reviews {
-  max-width: 1440px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 1rem;
   display: grid;
@@ -36,17 +36,14 @@ img {
   background-color: hsl(217, 19%, 35%);
 }
 
-#testimonial-3,
-#testimonial-5 {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(217, 19%, 35%);
-}
-
 #testimonial-4 {
   background-color: hsl(219, 29%, 14%);
 }
 
+#testimonial-3,
 #testimonial-5 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
 }
 
 #testimonial-1 img {
@@ -81,4 +78,33 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .reviews {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      'one one two five'
+      'three four four five';
+  }
+
+  #testimonial-1 {
+    grid-area: one;
+  }
+
+  #testimonial-2 {
+    grid-area: two;
+  }
+
+  #testimonial-3 {
+    grid-area: three;
+  }
+
+  #testimonial-4 {
+    grid-area: four;
+  }
+
+  #testimonial-5 {
+    grid-area: five;
+  }
 }
