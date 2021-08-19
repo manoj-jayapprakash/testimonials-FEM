@@ -18,11 +18,11 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-![Desktop Preview](./screenshot.jpg)
+![Desktop Preview](./Testimonials.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/manoj-jayapprakash/testimonials-FEM
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -30,12 +30,10 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@manojmj18](https://www.frontendmentor.io/profile/manojmj18)
