@@ -13,7 +13,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-![Desktop Preview](./Testimonials.jpg)
+![Desktop Preview](./Testimonials.png)
 
 ### Links
 

@@ -86,6 +86,7 @@ img {
     grid-template-areas:
       'one one two five'
       'three four four five';
+    margin: 5rem auto;
   }
 
   #testimonial-1 {
